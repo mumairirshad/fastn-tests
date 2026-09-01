@@ -1,0 +1,1 @@
+export default async function(ctx){ return { child: 1, got: ctx.input }; }
