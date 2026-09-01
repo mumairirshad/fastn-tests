@@ -1,0 +1,1 @@
+export default async function(ctx){  const key='qaretry_'+ctx.input.rid;  const arr=(await fastn.state.get(key,{scope:'ORG'}))||[];  arr.push({a:ctx.attempt,isRetry:ctx.isRetry,t:Date.now()});  await fastn.state.set(key,arr,{scope:'ORG'});  const _e=Date.now()+20000; while(Date.now()<_e){}  return {done:true};}
