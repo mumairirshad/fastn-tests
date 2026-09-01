@@ -1,0 +1,1 @@
+export default async function(ctx){ const cin7 = await fastn.connector.cin7core.getMe({}); return { cin7 }; }
