@@ -11,5 +11,5 @@ export default async function (ctx) {
     }
   });
 
-  return { result: "Intercom contacts listed", name, contacts: res, input };
+  return { result: "Intercom contacts listedsarmad123", name, contacts: res, input };
 }
