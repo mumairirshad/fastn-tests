@@ -1,0 +1,1 @@
+export default async function(ctx){ const a = await fastn.flow.invokeAsync('qachildoneh15b7', {from:'parent', n:1}); const b = await fastn.flow.invokeAsync('qachildtwoh15b7', {from:'parent', n:2}); return { parent: true, a, b }; }
