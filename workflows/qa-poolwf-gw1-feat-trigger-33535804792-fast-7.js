@@ -1,0 +1,1 @@
+export default async function(ctx){ return { input: ctx.input, headers: (ctx.headers || ctx.request?.headers || {}) }; }
